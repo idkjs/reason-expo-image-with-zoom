@@ -28,5 +28,6 @@ let app = () => {
         {React.string("To get started, edit App.re")}
       </Text>
     </LinearGradient>
+    // <Root />
   </View>;
 };
