@@ -1,5 +1,7 @@
 # Zooms an image to size passed into component
 
+## See it on `snack.io` https://expo.io/@idkjs/zoomreason
+
 ## ImageWithZoom Module
 
 Pass in an image size which is passed to the `uri` variable. Whatever the image size it will be scaled to the `width` and `height` defined in the `styles##image` property.
@@ -23,6 +25,10 @@ let make = (~size=?) => {
   />;
 };
 ```
+
+<p align="center">
+  <img src="./ios-screenshot.png"/>
+</p>
 
 ## notetoself about generating `rei` file
 
